@@ -1,0 +1,22 @@
+.header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  color: white;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.541);
+}
+.title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.navigs {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  cursor: pointer;
+}
