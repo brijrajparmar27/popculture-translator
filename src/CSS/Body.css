@@ -1,0 +1,40 @@
+.body
+{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bodycontent{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.div_submit
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.bodycontent textarea
+{
+    padding: 10px;
+    height: 200px;
+    outline: none;
+    border: 1px solid rgb(153, 153, 153);
+    background-color: rgba(255, 255, 255, 0.239);
+    border-radius: 20px;
+}
+.btn_submit
+{
+    margin: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.281);
+    width: 90px;
+    height: 30px;
+}
+.btn_submit:hover{
+    background-color: rgba(0, 0, 0, 0.596);
+}

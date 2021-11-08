@@ -3,7 +3,7 @@ import './CSS/Header.css';
 import { ModeContext } from './ModeContext';
 import yoda from "./ASSETS/yoda.jpeg";
 import groot from "./ASSETS/groot.jpeg";
-import minnion from "./ASSETS/minnion.jpeg";
+import minion from "./ASSETS/minion.jpeg";
 import dothraki from "./ASSETS/dothraki.jpeg";
 
 const Header = ()=>{
@@ -13,8 +13,8 @@ const Header = ()=>{
         console.log(selected);
         switch(selected)
         {
-            case "Minnion":
-                setMode(minnion);
+            case "Minion":
+                setMode(minion);
                 break;
             case "Yoda":
                 setMode(yoda);
@@ -37,7 +37,7 @@ const Header = ()=>{
                 Translator
             </h2>
             <div className="navigs" onClick={(e)=>{ModeChanged(e)}}>
-                <p className="navig">Minnion</p>
+                <p className="navig">Minion</p>
                 <p className="navig">Yoda</p>
                 <p className="navig">Groot</p>
                 <p className="navig">Dothraki</p>
